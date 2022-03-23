@@ -18,3 +18,9 @@ Gradle Wrapper
 修改当前项目 gradle版本：
 1. gradle wrapper --gradle-version 6.8.3
 2. 手动修改gradle-wrapper.properties 文件
+
+
+清理构建产物 `./gradlew clean`  放在 app/build 目录
+执行构建 `./gradlew build` 把app/build目录清理掉  
+运行测试 `./gradlew test`   
+查看所有task `./gradlew tasks`   
